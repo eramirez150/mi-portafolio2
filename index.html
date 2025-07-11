@@ -1,0 +1,218 @@
+   <!--doctype html es para defenir el tipo de dociumento en este caso es un tipo de documento html vesion 5--> 
+<!DOCTYPE html>
+<!--el html lang aca es la indentificacion de idioma el cuales tenemos en (ingles) es (español)-->
+<html lang="es">
+<!--el head es la parte que mantiene los metadatos que siempre mente es para asignar informacion a la pestalla donde asignamos el nombre de la pagina web y 
+asignamos con metadatos la informacion adecuada para el uso correcto de la pagina tanto para el navegado como para el usuario ese ese muy
+funcional ya que como dice el nombre es la cabeza del la pagina es el inicio de nuestra creacion de la pagina
+tambien tenemos el chatset  utp-8 que este es para evitar configtos con palabras con tildes o ñ el la pagina lo muestra de 
+una menera legible sin tenes ese tiempo de letra o garabatos dentro de nuestra pagina, tenemos tambiene el title que aca es la pestalla
+donde proporcionaremos el nombre de nuestra pagina MI PRIMERA PAGINA  tambien tenemos uno de documen que aca realizamos una breve desc
+rincion de lo que queres dar a cononcer en la pagina podemos asignar multiples funcamentos como el autor un icono palabras claves y es mutil la informacion de mis meta !-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI PRIMERA WEB</title>
+    <!-- Descripción para SEO (aparece en resultados de búsqueda) -->
+    <meta name="description" content="El conocimiento de mis conocimiento para la creacion de sitios web.">
+
+    <!-- Palabras clave (opcional, ya no es tan relevante para SEO) -->
+    <meta name="keywords" content="aprendimiento, dar a conocer">
+
+    <!-- Autor -->
+    <meta name="author" content="Eddy Alexander Ramirez Lorenzana">
+
+    <!-- Favicon (ícono de la pestaña) -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="sytaly.css">
+     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+
+</head>
+<!--ese como lo dice es el cuerpo de la pagina aca colocamos todo lo necesario para el usuario aca van 
+todas las etiquetas las parate estructural de la pagina base a los fundamentos de html y tambien usamos el css 
+para el diseño -->
+<body>
+    <main>
+      <nav class="nav">
+        <div class="nav__content">
+          <div class="nav__logo">
+            <img src="./images/logo.png" alt="Eddy Ramirez" />
+          </div>
+          <div class="nav__info">
+            <div class="nav__name">
+              <p>Eddy Alexander Ramirez</p>
+            </div>
+            <div class="nav__contact">
+        <a href="https://mail.google.com/mail/u/0/#inbox?compose=new" target="_blank" rel="noopener noreferrer" class="email-link">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M4 4H20C21.1 4 22 4.9 22 6V18C22 19.1 21.1 20 20 20H4C2.9 20 2 19.1 2 18V6C2 4.9 2.9 4 4 4Z" stroke="currentColor"/>
+            <path d="M22 6L12 13L2 6" stroke="currentColor"/>
+          </svg>
+          eramirezl9@miumg.edu.gt
+</a></div>
+          </div>
+        </div>
+      </nav>
+
+     <header class="header">
+        <img src="images/perfil.png" alt="Fondo tecnológico" class="header__bg">
+        <div class="header__content">
+            <h1>Eddy Alexander Ramirez</h1>
+            <h2>Desarrollador Frontend</h2>
+            <a href="#contact" class="btn">Conversemos</a>
+        </div>
+    </header>
+
+      <div class="container">
+        <section class="features" id="about">
+          <h2>Mis servicios</h2>
+          <div class="features__list">
+            <div class="item">
+              <div class="item__image">
+                <img src="./images/frontend.png" alt="" />
+              </div>
+              <div class="item__text">
+                <h3>Desarrollo web</h3>
+                <p>
+                  Me gusta codificar proyectos desde cero y disfruto darle vida
+                  a ideas en el navegador.
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item__image">
+                <img src="./images/ux.png" alt="" />
+              </div>
+              <div class="item__text">
+                <h3>Auditoria web</h3>
+                <p>
+                  Hagamos un diagnóstico a tu web/app. Veamos el estado actual y
+                  tus objetivos para luego crear un plan de mejora continua
+                </p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item__image">
+                <img src="./images/teach.png" alt="" />
+              </div>
+              <div class="item__text">
+                <h3>Mentor IT</h3>
+                <p>
+                  Necesitas ayuda empezando en programación? Me encantaría
+                  guiarte en el proceso, contándote mi experiencia y dándote los
+                  tips clave
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="projects" id="projects">
+          <h2>Proyectos</h2>
+          <div class="projects__list">
+            <div class="item">
+              <div class="item__image">
+                <a href="http://www.electrosur.com.pe:81/">
+                  <img src="./images/prj1.jpg" alt="" />
+                </a>
+              </div>
+              <div class="item__description">
+                <h3>Oficina Virtual</h3>
+                <p>Oficina Virtual para clientes de una compañía energética</p>
+                <ul>
+                  <ol><img src="./images/js.svg" alt="" /></ol>
+                  <ol><img src="./images/html.svg" alt="" /></ol>
+                  <ol><img src="./images/css.svg" alt="" /></ol>
+                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item__image">
+                <a href="https://applicationtracker.com">
+                  <img src="./images/prj2.jpg" alt="" />
+                </a>
+              </div>
+              <div class="item__description">
+                <h3>Application Tracker</h3>
+                <p>
+                  Una aplicación que te notifica sobre el proceso de adquisición
+                  de un seguro médico
+                </p>
+                <ul>
+                  <ol><img src="./images/js.svg" alt="" /></ol>
+                  <ol><img src="./images/html.svg" alt="" /></ol>
+                  <ol><img src="./images/css.svg" alt="" /></ol>
+                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item__image">
+                <a href="https://www.codinglt.dev/">
+                  <img src="./images/prj3.jpg" alt="" />
+                </a>
+              </div>
+              <div class="item__description">
+                <h3>Coding Latam</h3>
+                <p>
+                  Startup de educación para ayudar a nuevos programadores a
+                  mejorar sus habilidades
+                </p>
+                <ul>
+                  <ol><img src="./images/js.svg" alt="" /></ol>
+                  <ol><img src="./images/html.svg" alt="" /></ol>
+                  <ol><img src="./images/css.svg" alt="" /></ol>
+                </ul>
+              </div>
+            </div>
+            <div class="item">
+              <div class="item__image">
+                <img src="./images/prj4.jpg" alt="" />
+              </div>
+              <div class="item__description">
+                <h3>Tracker de envío de paquetes</h3>
+                <p>Cliente alternativo para hacer seguimiento a tus paquetes</p>
+                <ul>
+                  <ol><img src="./images/js.svg" alt="" /></ol>
+                  <ol><img src="./images/html.svg" alt="" /></ol>
+                  <ol><img src="./images/css.svg" alt="" /></ol>
+                  <ol><img src="./images/react.svg" alt="" /></ol>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="contact" id="contact">
+          <h2>Contáctame</h2>
+          <h2>eramirezl9@miumg.edu.gt</h2>
+          <div class="contact__icons">
+            <div class="item twitter">
+              <a target="_blank" href="https://twitter.com/angelolev">
+                <span class="icon icon-twitter"></span
+              ></a>
+            </div>
+            <div class="item github">
+              <a target="_blank" href="https://github.com/angelolev">
+                <span class="icon icon-github"></span
+              ></a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer class="footer">
+        <div class="footer__logo">
+          <img src="./images/logo.png" alt="Angelo Leva" />
+        </div>
+        <div class="footer__links">
+          <ul>
+            <li><a class="scrollable" href="#about">SOBRE MI</a></li>
+            <li><a class="scrollable" href="#projects">PROYECTOS</a></li>
+            <li><a class="scrollable" href="#contact">CONTACTO</a></li>
+          </ul>
+        </div>
+        <div class="footer__copyright">
+          <p>© 2025 Eddy Ramirez. Todos los derechos reservados</p>
+        </div>
+      </footer>
+    </main>
+    </body>
+</html>
